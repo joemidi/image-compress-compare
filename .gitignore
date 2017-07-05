@@ -1,0 +1,22 @@
+# Folder settings files
+.DS_Store
+Desktop.ini
+
+# Logs files
+*.log
+logs/
+
+# Node modules
+node_modules/
+
+# Other
+.sass-cache/
+imagemin/
+tinified/
+.idea
+*.iml
+
+# don't save images to this repo
+*.jp?g
+*.png
+*.gif

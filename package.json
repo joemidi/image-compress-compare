@@ -1,0 +1,26 @@
+{
+  "name": "image-compress-compare",
+  "version": "1.0.0",
+  "description": "Compress images and compare results.",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joemidi/image-compress-compare"
+  },
+  "scripts": {
+    "start": "./node_modules/gulp/bin/gulp.js"
+  },
+  "author": "Joey Padasian <joey@padasian.com>",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-filesize": "^0.0.6",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-size": "^2.1.0",
+    "gulp-tinify": "^1.0.2",
+    "imagemin": "^5.3.1",
+    "imagemin-guetzli": "^1.0.0",
+    "imagemin-pngquant": "^5.0.1"
+  }
+}
